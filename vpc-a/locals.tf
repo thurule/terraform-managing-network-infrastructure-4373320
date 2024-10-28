@@ -1,3 +1,3 @@
 locals {
-  ingress_cidr_list = concat([var.public_ip], ["10.6.1.0/24"])
+  ingress_cidr_list = concat([var.public_ip], ["172.16.32.0/24"])
 }
